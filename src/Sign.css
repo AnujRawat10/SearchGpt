@@ -1,0 +1,34 @@
+/* SignIn.css */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 40vh;
+    
+  }
+  
+  .signin-button {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: black; /* Google blue */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s;
+  }
+  
+  .signin-button:hover {
+    background-color: #357ae8; /* Darker blue on hover */
+  }
+  
+  .signin-icon {
+    width: 30px; /* Adjust size as needed */
+    height: 30px; /* Adjust size as needed */
+    margin-right: 10px; /* Space between icon and text */
+  }
+  

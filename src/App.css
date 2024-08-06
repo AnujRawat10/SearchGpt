@@ -1,0 +1,50 @@
+body, html{
+  background-color: grey;
+}
+.App-header{
+  text-align: center;
+  margin-top: 50vh;
+}
+.App-header h1{
+  font-size: 3.75rem;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+
+.box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: -60vh;
+  width: 90%;
+  color: black;
+}
+.source h2{
+  color: black;
+  margin-left: 10vh;
+}
+.super, .memo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;  /* Adds space between the two sections */
+}
+
+.super img, .memo img {
+  margin-right: 10px;  /* Adds space between the image and the text/link */
+  height: 30px;  /* Adjust the height as needed */
+}
+.memo img{
+  margin-left: 2vh;
+}
+.memo p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+  color: black;  /* Set the color of the text links */
+  text-decoration: none;  /* Removes underline from links */
+}
+
+a:hover {
+  text-decoration: underline;  /* Adds underline on hover for better user interaction feedback */
+}
