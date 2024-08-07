@@ -3,7 +3,7 @@ import React from 'react';
 import { signInWithPopup, GoogleAuthProvider } from 'firebase/auth';
 import { auth, googleProvider } from './firebase';
 import './Sign.css'; // Ensure this path matches your CSS file
-import Google from './assets/Google.webp';
+import Google from './assets/Google.png';
 
 const SignIn = () => {
   const signInWithGoogle = async () => {
